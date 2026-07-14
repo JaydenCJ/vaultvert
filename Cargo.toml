@@ -1,0 +1,20 @@
+[package]
+name = "vaultvert"
+authors = ["JaydenCJ <aisingioro.kiyon@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+description = "Converts and merges password-manager exports across Bitwarden, 1Password and KeePass formats — lossless field mapping, integrity report, merge dedupe, fully offline."
+license = "MIT"
+repository = "https://github.com/JaydenCJ/vaultvert"
+keywords = ["password-manager", "bitwarden", "keepass", "1password", "converter"]
+categories = ["command-line-utilities"]
+
+# Zero dependencies by design: every byte that touches your credentials is in
+# this repository and auditable in one sitting. JSON, XML, CSV, Base64, SHA-256
+# and RFC 3339 handling are all implemented in-tree against std only.
+[dependencies]
+
+[profile.release]
+strip = true
+lto = true

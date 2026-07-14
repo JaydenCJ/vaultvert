@@ -1,0 +1,89 @@
+{
+  "encrypted": false,
+  "folders": [
+    { "id": "5c1f2b3a-0000-4000-8000-000000000001", "name": "Work" },
+    { "id": "5c1f2b3a-0000-4000-8000-000000000002", "name": "Personal" }
+  ],
+  "items": [
+    {
+      "id": "9a410fa4-0000-4000-8000-000000000001",
+      "organizationId": null,
+      "folderId": "5c1f2b3a-0000-4000-8000-000000000001",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Corporate Mail",
+      "notes": "Ask IT before changing the recovery address.",
+      "favorite": true,
+      "login": {
+        "uris": [
+          { "match": null, "uri": "https://mail.example.test" },
+          { "match": null, "uri": "https://webmail.example.test" }
+        ],
+        "username": "kim@example.test",
+        "password": "correct horse battery staple",
+        "totp": "otpauth://totp/mail?secret=JBSWY3DPEHPK3PXP"
+      },
+      "fields": [
+        { "name": "employee id", "value": "E-4471", "type": 0, "linkedId": null },
+        { "name": "recovery seed", "value": "abandon ability able about", "type": 1, "linkedId": null }
+      ],
+      "collectionIds": null,
+      "creationDate": "2024-11-02T08:15:00.000Z",
+      "revisionDate": "2026-05-20T17:42:00.000Z"
+    },
+    {
+      "id": "9a410fa4-0000-4000-8000-000000000002",
+      "organizationId": null,
+      "folderId": "5c1f2b3a-0000-4000-8000-000000000001",
+      "type": 1,
+      "reprompt": 0,
+      "name": "Build Server",
+      "notes": null,
+      "favorite": false,
+      "login": {
+        "uris": [ { "match": null, "uri": "https://ci.example.test:8443" } ],
+        "username": "deploy",
+        "password": "x9!K#2mQ\"v<7&Lp>",
+        "totp": null
+      },
+      "collectionIds": null,
+      "creationDate": "2025-01-15T09:00:00.000Z",
+      "revisionDate": "2025-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "9a410fa4-0000-4000-8000-000000000003",
+      "organizationId": null,
+      "folderId": "5c1f2b3a-0000-4000-8000-000000000002",
+      "type": 2,
+      "reprompt": 0,
+      "name": "Home Wi-Fi",
+      "notes": "SSID: birdhouse\nPSK: three green sparrows perch quietly",
+      "favorite": false,
+      "secureNote": { "type": 0 },
+      "collectionIds": null,
+      "creationDate": "2024-06-10T12:00:00.000Z",
+      "revisionDate": "2024-06-10T12:00:00.000Z"
+    },
+    {
+      "id": "9a410fa4-0000-4000-8000-000000000004",
+      "organizationId": null,
+      "folderId": "5c1f2b3a-0000-4000-8000-000000000002",
+      "type": 3,
+      "reprompt": 1,
+      "name": "Debit Card",
+      "notes": null,
+      "favorite": false,
+      "card": {
+        "cardholderName": "KIM EXAMPLE",
+        "brand": "Visa",
+        "number": "4111111111111111",
+        "expMonth": "12",
+        "expYear": "2030",
+        "code": "123"
+      },
+      "collectionIds": null,
+      "creationDate": "2025-03-01T10:30:00.000Z",
+      "revisionDate": "2025-03-01T10:30:00.000Z"
+    }
+  ]
+}

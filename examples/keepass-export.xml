@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeePassFile>
+	<Meta>
+		<Generator>KeePass</Generator>
+		<DatabaseName>household</DatabaseName>
+		<RecycleBinUUID>8Krb1uh3nkqxTIeyoJEDpA==</RecycleBinUUID>
+	</Meta>
+	<Root>
+		<Group>
+			<UUID>xIhxralxeEeIzGRQ3nHDrg==</UUID>
+			<Name>household</Name>
+			<Entry>
+				<UUID>lQ0dl4Vfbk2KvyO8LX0y1A==</UUID>
+				<String>
+					<Key>Title</Key>
+					<Value>Corporate Mail</Value>
+				</String>
+				<String>
+					<Key>UserName</Key>
+					<Value>kim@example.test</Value>
+				</String>
+				<String>
+					<Key>Password</Key>
+					<Value ProtectInMemory="True">correct horse battery staple</Value>
+				</String>
+				<String>
+					<Key>URL</Key>
+					<Value>https://mail.example.test</Value>
+				</String>
+				<String>
+					<Key>Notes</Key>
+					<Value>Same account as the laptop profile.</Value>
+				</String>
+				<Tags>email;work</Tags>
+				<Times>
+					<CreationTime>2024-11-02T08:15:00Z</CreationTime>
+					<LastModificationTime>2026-06-30T07:05:00Z</LastModificationTime>
+				</Times>
+			</Entry>
+			<Group>
+				<UUID>H2sYWJvALUCVLKC0kopVrw==</UUID>
+				<Name>Streaming</Name>
+				<Entry>
+					<UUID>0T4ArkS4bkWLplS9mFHhAg==</UUID>
+					<String>
+						<Key>Title</Key>
+						<Value>Movie Night</Value>
+					</String>
+					<String>
+						<Key>UserName</Key>
+						<Value>family@example.test</Value>
+					</String>
+					<String>
+						<Key>Password</Key>
+						<Value ProtectInMemory="True">popcorn &amp; blankets</Value>
+					</String>
+					<String>
+						<Key>URL</Key>
+						<Value>https://stream.example.test</Value>
+					</String>
+					<String>
+						<Key>otp</Key>
+						<Value ProtectInMemory="True">otpauth://totp/stream?secret=GEZDGNBVGY3TQOJQ</Value>
+					</String>
+					<String>
+						<Key>profile pin</Key>
+						<Value Protected="True">4402</Value>
+					</String>
+					<Times>
+						<CreationTime>2025-08-19T20:00:00Z</CreationTime>
+						<LastModificationTime>2025-08-19T20:00:00Z</LastModificationTime>
+					</Times>
+				</Entry>
+			</Group>
+			<Group>
+				<UUID>8Krb1uh3nkqxTIeyoJEDpA==</UUID>
+				<Name>Recycle Bin</Name>
+				<Entry>
+					<UUID>u1yYCCyrX0m5vCzWjbAaFw==</UUID>
+					<String>
+						<Key>Title</Key>
+						<Value>Old Router (deleted)</Value>
+					</String>
+					<String>
+						<Key>Password</Key>
+						<Value ProtectInMemory="True">admin</Value>
+					</String>
+				</Entry>
+			</Group>
+		</Group>
+	</Root>
+</KeePassFile>

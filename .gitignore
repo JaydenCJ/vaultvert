@@ -1,0 +1,32 @@
+# --- build outputs ---
+target/
+build/
+dist/
+out/
+
+# --- dependencies (not used by Rust, kept for baseline compliance) ---
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# --- real vault data (never commit an actual export) ---
+*.kdbx
+*.1pux
+vault-*.json
+vault-*.xml
+vault-*.1pif
+
+# --- env & secrets ---
+.env
+.env.*
+!.env.example
+
+# --- caches / editor / OS ---
+.DS_Store
+.idea/
+.vscode/
+.cache/
+coverage/
+*.log
+tmp/

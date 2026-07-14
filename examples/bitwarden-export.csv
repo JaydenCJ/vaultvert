@@ -1,0 +1,5 @@
+folder,favorite,type,name,notes,fields,reprompt,login_uri,login_username,login_password,login_totp
+Work,1,login,Corporate Mail,"Ask IT before changing the recovery address.","employee id: E-4471",0,https://mail.example.test,kim@example.test,correct horse battery staple,otpauth://totp/mail?secret=JBSWY3DPEHPK3PXP
+Personal,,login,Movie Night,,,0,https://stream.example.test,family@example.test,popcorn & blankets,
+,,note,Home Wi-Fi,"SSID: birdhouse
+PSK: three green sparrows perch quietly",,0,,,,
